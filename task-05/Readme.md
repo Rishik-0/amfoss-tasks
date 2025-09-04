@@ -1,0 +1,6 @@
+Before starting the problem I checked out the RESOURCES.md file. I just quickly went through the mentioned Python 
+packages and libraries like requests, json, threading,and time from the links given in the file.I spent more time in 
+learning time and threading. Then I started writing each functions mentioned in TimeTickQuix.py. This probem gave
+me a good introduction to api and different functions in time and threading.It helped me learn the logic and proper 
+usage of these functions while writing the code.I manually tested the code via CLI(command line interface) and 
+simulated timer runs. After completing the code and checking the working i then started decorating the interface.
