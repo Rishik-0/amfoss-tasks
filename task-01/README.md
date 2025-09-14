@@ -1,11 +1,11 @@
 I first cloned the repository into my device.
 
-Part 1:
+# Part 1:
 
 I used cd Terminal-Hunt/ to change my directory to Terminal-Hunt. 
-I used grep function to find which file had the 'facility'. git grep -ril 'facility'. I found out that it was stored in Earth/Russia/Vladimir_Oblast/.facility/gravity_equation.txt
+I used grep function to find which file had the 'facility'. git grep - ril 'facility'. I found out that it was stored in Earth/Russia/Vladimir_Oblast/.facility/gravity_equation.txt
 
-I used cd function and used cat function to read gravity_equation.txt
+- I used cd function and used cat function to read gravity_equation.txt
 
 You’ve uncovered the first piece of the puzzle — well done, explorer.
 
@@ -19,7 +19,7 @@ The future depends on secrecy.
 
 
 
-Part 2:
+# Part 2:
 
 I went back to the root directory by using cd ~ and went to Saturn using cd .Then I used ch to go the Ring. I used ls -a to find the hidden .sh file .
 to make the file executable i used chmod +x .wormhole.sh. Then i executed it using ./.wormhole
@@ -35,7 +35,7 @@ Copy it to the directory that shares the name of your state and also take a scre
 
 
 
-Part 3:
+# Part 3:
 
 I entered into a new branch Gargantuan System using git checkout  GargantuaSystem
 
