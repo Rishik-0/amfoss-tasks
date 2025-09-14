@@ -1,0 +1,1 @@
+I started by learning html and css from a youtube course. I learned how to make and stylize a webpage using html and css.This task was a very good oppertunity for me to learn html and css.I used basic css functions to complete the task.
