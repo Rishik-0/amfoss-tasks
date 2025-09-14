@@ -7,6 +7,8 @@ import requests
 from discord import File
 
 userplaylist = {}
+lrclib_url = f"https://lrclib.net/api/search?track_name={song}&artist_name={artist}"
+musicbrainz_url = f"https://musicbrainz.org/ws/2/recording/?query=recording:{song}+AND+artist:{artist}&inc=releases+tags&fmt=json"
 
 load_dotenv()
 token = os.getenv('DISCORD_BOT_TOKEN')
@@ -44,16 +46,16 @@ async def lyrics(ctx,*,query:str):
     except ValueError:
         return await ctx.send("Use format: /lyrics <song> - <artist>")
     
-    url = f"https://lrclib.net/api/search?track_name={song}&artist_name={artist}"
     
-    response = requests.get(url)
-    if response.status_code != 200:
+    
+    response = requests.get(lrclib_url)
+    if response.status_code!=200:
         return await ctx.send("Failed to fetch lyrics.")
     data = response.json()
     if not data:
         return await ctx.send("No lyrics found for that track.")
     lyrics = data[0].get('plainLyrics',"Lyrics not found")
-    if len(lyrics) <= 1900:
+    if len(lyrics)<=1900:
         await ctx.send(lyrics)
     else:
         file_name = "lyrics.txt"
@@ -71,8 +73,7 @@ async def track(ctx,*,query:str):
     except ValueError:
         return await ctx.send("Use format: /track <song> - <artist>")
     
-    url = f"https://musicbrainz.org/ws/2/recording/?query=recording:{song}+AND+artist:{artist}&inc=releases+tags&fmt=json"
-    response = requests.get(url)
+    response = requests.get(musicbrainz_url)
     if response.status_code != 200:
         return await ctx.send("Failed to fetch data.")
     data = response.json()
