@@ -115,3 +115,14 @@ Then i went to Ennies lobby directory and went to .cp9_secure_vault where i ran 
 
 ![screenshot12](screenshots/screenshot12.png)
 
+--------------------------------------------------------------------------------------------------
+
+
+## Level - 6 — THE GREAT MERGE WAR AT LAUGH TALE
+
+I coned the final challange.
+I merged the two branches using `git merge <branch_name>` , and resolved the merge conflicts in key_part_1.txt and key_part_2.txt to get the final code.
+I then ran the victory.sh file and pasted the code *TheGrandLineRemembers*
+
+![screenshotfinal1](screenshots/screenshotfinal1.png)
+![screenshotfinal2](screenshots/screenshotfinal2.png)
