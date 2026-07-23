@@ -24,8 +24,11 @@ Then i used `./eat.sh <executable_devil_fruit>` to check if it worked..
 
 ### AWAKENING_SIGNATURE = 'ONE_PIECE{GITO_GITO_NO_AWAKENING}'  
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
-##LEVEL 2 — THE TWO FACES OF WHISKEY PEAK
+
+
+## LEVEL 2 — THE TWO FACES OF WHISKEY PEAK
 
 I switched my branch to whiskey_peak_investigation 
 `git checkout whiskey_peak_investigation` 
@@ -45,6 +48,8 @@ i used `export AWAKENING_SIGNATURE='ONE_PIECE{GITO_GITO_NO_AWAKENING}'` to submi
 
 
 ### AWAKENING_SIGNATURE = 'ONE_PIECE{GITO_GITO_NO_AWAKENING}'
+
+------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -75,6 +80,9 @@ BAROQUE WORKS EXECUTIVE REPORT
 ### PONEGLYPH_FRAGMENT_I = "KjY2MjF4bW0lKzYqNyBsIS0vbTAtJTcnL"
 
 -------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+
+
 
 ## LEVEL 4 — THE CAMOUFLAGED BLUEPRINTS OF WATER 7
 
@@ -98,6 +106,7 @@ I used `unzip step1_blueprints.zip` to unzip the zip file
 ![screenshot10](screenshots/screenshot10.png)
 
 ![screenshot11](screenshots/screenshot11.png)
+------------------------------------------------------------------------------------------------------------- 
 
 ## LEVEL 5 — THE BUSTER CALL TIMELINE RECOVERY
 
